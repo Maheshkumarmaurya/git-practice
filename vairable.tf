@@ -9,3 +9,10 @@ variable "default" {
   type        = string
   default     = "default_value"
 }
+
+variable "default_value" {
+  description = "Another default variable"
+  type        = string
+  default     = "another_default_value"
+  
+}
