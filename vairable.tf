@@ -3,3 +3,9 @@ variable "instance_type" {
   type        = string
   default     = "t2.micro"
 }
+
+variable "default" {
+  description = "A default variable"
+  type        = string
+  default     = "default_value"
+}
